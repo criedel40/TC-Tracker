@@ -16,10 +16,14 @@ Settings for tracker can be found in test_CyTRACK.cfg. Currently setup to tracke
 ```
 
 * Details on the tracker
+```
 python run_CyTRACK.py -cth t
-
+```
 * Command to run the tracker
+```
 python run_CyTRACK.py -pf test_CyTRACK.cfg
-
+```
 * Command to run the tracker with multiple CPUs
+```
 mpirun -np #cpus python run_CyTRACK.py -pf test_CyTRACK.cfg
+```
