@@ -1,6 +1,10 @@
 # TC Tracker for WeatherMesh
 
-Code is from the CyTrack (https://github.com/apalarcon/CyTRACK) with modifications to work with WeatherMesh datasets. This paper describes the tracker methods and vericiation to other TC trackers => https://www.sciencedirect.com/science/article/pii/S1364815224000884
+Code was taken from CyTrack (https://github.com/apalarcon/CyTRACK) and modifications were made to work with WeatherMesh datasets. 
+
+CyTrack code has a GPLv3 license. See License on README page => https://github.com/apalarcon/CyTRACK?tab=readme-ov-file
+
+This paper describes the tracker methods and vericiation to other TC trackers => https://www.sciencedirect.com/science/article/pii/S1364815224000884
 
 Settings for tracker can be found in test_CyTRACK.cfg. Currently setup to track TCs over the Northern Hemisphere. 
 
